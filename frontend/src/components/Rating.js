@@ -4,11 +4,13 @@ const Rating = ({ value, text, color }) => {
   const rating = [];
   for (let i = 0; i < 5; i++) {
     if (value >= 1 + i) {
-      rating.push(<i className="fas fa-star" style={{ color }}></i>);
+      rating.push(<i key={i} className="fas fa-star" style={{ color }}></i>);
     } else if (value >= i + 0.5) {
-      rating.push(<i className="fas fa-star-half-alt" style={{ color }}></i>);
+      rating.push(
+        <i key={i} className="fas fa-star-half-alt" style={{ color }}></i>
+      );
     } else {
-      rating.push(<i className="far fa-star" style={{ color }}></i>);
+      rating.push(<i key={i} className="far fa-star" style={{ color }}></i>);
     }
   }
   return (
