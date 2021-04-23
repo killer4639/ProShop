@@ -61,9 +61,7 @@
 
 ## About The Project
 
-This is an eCommerce web application created with MERN Stack. It has user authentication. If you are an admin then you can add products, check for order and payments, get a list of all the users, mark an order delivered and much more.If you are a normal user, then you can add products to your cart, add or delete items from your cart and place orders. It is also connected to PayPal for payments. It is deployed on Heroku and below you can find the link to vist the app.  
-
-
+This is an eCommerce web application created with MERN Stack. It has user authentication. If you are an admin then you can add products, check for orders and payments, get a list of all the users, mark an order delivered, and much more. If you are a normal user, then you can add products to your cart, add or delete items from your cart, and place orders. It is also connected to PayPal for payments. It is deployed on Heroku and below you can find the link to visit the app. 
 
 ### Built With
 
