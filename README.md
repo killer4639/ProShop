@@ -81,7 +81,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Create an .env file with the following keys. (Team Vihaan- Please contact anyone from below contacts for S3 keys if there is a difficulty in using S3 or if you want to test with S3 without making an AWS account) 
+- Create an .env file with the following keys.
 
   ```
   NODE_ENV=development
